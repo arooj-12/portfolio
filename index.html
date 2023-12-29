@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Arooj Shahid - Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg" id="my-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">&lt;AS /&gt;</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon menu-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- <a class="nav-link" href="#articles">Articles</a>
+            <div class="menu-divider"></div> -->
+            <a class="nav-link" href="#projects">My Projects</a>
+            <div class="menu-divider"></div>
+            <a class="nav-link" href="#about">About Me</a>
+            <div class="menu-divider"></div>
+            <a class="nav-link" href="#contact">Contact</a>
+            <div class="menu-divider"></div>
+            <a class="nav-link" href="./files/Arooj-Resume.pdf" target="_blank"
+              ><ion-icon name="cloud-download-outline"></ion-icon> Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <div class="container">
+      <embed src="files/Bartosz_Swierzynski_Resume.pdf" type="application/pdf" width="100%" height="600px" />
+    </div> -->
+    <div>
+      <!-- INTRODUCTION SECTION -->
+      <div class="intro-section container fade-in">
+        <!-- <div class="col col-md-8"> -->
+        <div class="intro-section-content">
+          <h1 class="intro-heading">
+            Hi, I'm <span class="highlight">Arooj</span> | <span class="highlight">Front-end Developer</span>
+          </h1>
+
+          <div class="intro-description">
+            <p class="intro-subheading">
+              Turning <span class="highlight">ideas</span> into <span class="highlight">reality</span> by
+              <span class="highlight">building</span>
+            </p>
+            <p class="intro-subheading-2">Let's <span class="highlight">build</span> something</p>
+          </div>
+
+          <div class="flex-center">
+            <a href="https://www.linkedin.com/in/arooj-shahid-22b780215" target="_blank" class="intro-link-icon-container">
+              <ion-icon name="logo-linkedin" class="intro-link-icons"></ion-icon>
+              <span class="intro-link-icon-text">LinkedIn</span>
+            </a>
+            <a href="https://github.com/arooj-12" target="_blank" class="intro-link-icon-container">
+              <ion-icon name="logo-github" class="intro-link-icons"></ion-icon>
+              <span class="intro-link-icon-text">Github</span>
+            </a>
+            <a href="#contact" class="intro-link-icon-container">
+              <ion-icon name="mail-outline" class="intro-link-icons"></ion-icon>
+              <span class="intro-link-icon-text">Email</span>
+            </a>
+          </div>
+        <!-- </div> -->
+
+        <!-- DROPDOWN ARROW -->
+        <a href="#about">
+          <div class="arrow-link">
+            <svg class="dropdown-icon" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+              />
+            </svg>
+          </div>
+        </a>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <!-- ABOUT ME SECTION -->
+    <div class="about-section">
+      <h1 class="about-header" id="about">About Me</h1>
+      <div class="container-fluid">
+        <p class="about-description">
+          I'm a <span class="highlight">Front-end Developer</span> with
+          <span class="highlight">full stack capabilities</span>. I'm a
+          <span class="highlight">curious developer</span> who genuinely loves to
+          learn <span class="highlight">cutting-edge technologies</span> that elevate my skills as a developer.
+          My fullstack projects are featured here but please check my github account to view my other noteworthy projects.
+        </p>
+
+        <!-- TECHNOLOGY CONTAINER -->
+        <div class="technologies-container">
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/javascript-icon.svg" class="technology-image" />
+              <!-- <img src="./img/javascript-icon.svg" class="technology-image"> -->
+            </div>
+            <span class="technology-name">JavaScript</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/typescript-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">TypeScript</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/html5-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">HTML5</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/css3-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">CSS3</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center max-width-60">
+              <img src="./img/react-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">React</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/redux-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">Redux</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/nextjs-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">Next.js</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/nodejs-icon.png" class="technology-image" />
+            </div>
+            <span class="technology-name">NodeJS</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/expressjs-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">ExpressJS</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/tailwindcss-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">TailwindCSS</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/sass-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">SCSS</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/material-ui-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">Material UI</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/bootstrap-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">Bootstrap</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/firebase-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">Firebase</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/mongodb-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">MongoDB</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/postman.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">Postman</span>
+          </div>
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/git-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">Git</span>
+          </div>  
+          <div class="techology-image-container">
+            <div class="center">
+              <img src="./img/npm-icon.svg" class="technology-image" />
+            </div>
+            <span class="technology-name">NPM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <!-- Article Section -->
+ <!-- <div class="article-section">
+  <h1 class="section-header" id="articles">Articles</h1>
+  <div class="article-container"> -->
+
+  <!-- Individual Article Links -->
+  <!-- <div class="container-fluid">
+    <a class="nav-link" href="article1.html">CSS3 advancements</a>
+    <a class="nav-link" href="article2.html">Using Flexbox for a horizontal scroll menu</a> 
+    <a class="nav-link" href="article3.html">Higher Order Functions & Arrays</a>
+  </div>
+  </div>
+  </div> -->
+  
+
+    <!-- <h1 class="section-header" id="projects">My Projects</h1> -->
+    <!-- PROJECT SECTION -->
+    <h1 class="section-header" id="projects">Personal Projects</h1>
+    <!-- Project container IS FOR INTERSECTION OBSERVER FOR FADE  -->
+    <div class="project-container">
+      <!-- NEXT.JS APP - NEXT-LEVEL GAMES -->
+      <div class="project-section animate-proj-6">
+        <div class="container-fluid">
+          <!-- Image -->
+          <div class="project-image-container">
+            <!-- IMAGE CAROUSEL -->
+            <div id="carouselExampleIndicators6" class="carousel slide">
+              <!-- Slider Bars -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators6"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="5" aria-label="Slide 6"></button> -->
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 7"></button> -->
+              </div>
+
+              <!-- Image Container -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/smartbrain-home.png" class="d-block w-100 carousel-image" alt="Game Genre Page" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/smartbrain-login.png" class="d-block w-100 carousel-image" alt="Products Page" />
+                </div>    
+                <!-- <div class="carousel-item">
+                  <img src="./img/NLG-genres.png" class="d-block w-100 carousel-image" alt="Checkout Page" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/NLG-platforms.png" class="d-block w-100 carousel-image" alt="Cart Page" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/NLG-browse-platforms.png" class="d-block w-100 carousel-image" alt="Signin Page" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/NLG-homepage.png" class="d-block w-100 carousel-image" alt="Products Page" />
+                </div> -->
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
+                <span aria-hidden="true"><ion-icon name="arrow-back-outline" class="arrow-back-outline"></ion-icon></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <!-- Next Slide Container -->
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <span aria-hidden="true"><ion-icon name="arrow-forward-outline" class="arrow-forward-outline"></ion-icon></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- End of Image Carousel -->
+
+          <!-- Text -->
+          <!-- <div class="col col-md-6"> -->
+          <div class="row">
+            <div class="project-content">
+              <h1 class="project-heading">Smart-Brain</h1>
+              <h2 class="project-subheading">React Smart Brain Web Application</h2>
+              <ul class="tech-list">
+                <li class="list-item">React</li>
+                <li class="list-item">CSS</li>
+                <li class="list-item">PostgreSQL</li>
+                <li class="list-item">NodeJS</li>
+                <li class="list-item">ExpressJS</li>
+                <li class="list-item">Postman</li>
+                <li class="list-item">Clarifai Api</li>
+                <li class="list-item">Deployment</li>
+              </ul>
+              <!-- <p class="project-description">High quality footwear at an affordable price.</p> -->
+              <p class="project-description">
+                SmartBrain is a facial recognition web application that allows users to register, log in, and detect faces in images provided via URL. The application incorporates modern web development technologies to provide a seamless and intuitive user experience.
+              </p>
+              <div class="project-btns">
+                <!-- OPEN LIVE SITE -->
+                <a class="click-zone" href="https://arooj-12.github.io/SmartBrain-frontend/" target="_blank"
+                  ><button class="btn-site"><ion-icon name="open-outline" class="project-icon"></ion-icon>View Site</button></a
+                >
+                <!-- OPEN REPO CODE -->
+                <a class="click-zone" href="https://github.com/arooj-12/SmartBrain-frontend" target="_blank"
+                  ><button class="btn-code"><ion-icon name="code-slash-outline" class="project-icon"></ion-icon>View Code</button></a
+                >
+                <!-- OPEN MODAL BUTTON -->
+                <button type="button" class="btn-description" data-bs-toggle="modal" data-bs-target="#projectModal6">
+                  <ion-icon name="enter-outline" class="project-icon"></ion-icon>Project Description
+                </button>
+                <!-- MODAL CONTENT -->
+                <div class="modal fade" id="projectModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel">Project Overview</h1>
+                      </div>
+                      <!-- HOLDS OUR ENTIRE MODAL WINDOW CONTENT -->
+                      <div class="modal-body">
+                        <!-- Section #1 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjSixBtnOne"
+                                aria-expanded="true"
+                                aria-controls="collapseProjSixBtnOne"
+                              >
+                                <span class="accordion-button-text">Project Description</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjSixBtnOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                Developed a Face Recognition app utilizing Clarifai API for precise face detection with bounding boxes. Demonstrated strong skills in API integration, image processing, and applying advanced technologies for real-world solutions, showcasing a commitment to staying current in the field of computer vision. The web application is deployed on Netlify and the code is hosted on GitHub.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #2 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjSixBtnTwo"
+                                aria-expanded="true"
+                                aria-controls="collapseProjSixBtnTwo"
+                              >
+                                <span class="accordion-button-text">Why did I build this project?</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjSixBtnTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                The creation of SmartBrain was driven by a blend of educational goals, personal interests, and the pursuit of practical skills. SmartBrain served as a playground for honing my React skills. The project's architecture heavily relied on React, showcasing dynamic user interfaces and seamless interactions. Utilizing Node.js for server-side development and PostgreSQL for database management, I delved into the full-stack realm. The integration of these technologies enabled secure user authentication and data storage. The incorporation of the Clarifai API added a layer of complexity and real-world application to the project. SmartBrain's ability to detect faces in images showcased my proficiency in integrating external APIs. Adopting Postman as a testing tool allowed for robust API call testing. 
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #3 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjSixBtnThree"
+                                aria-expanded="true"
+                                aria-controls="collapseProjSixBtnThree"
+                              >
+                                <span class="accordion-button-text">Build Difficulties?</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjSixBtnThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                Integrating and understanding the Clarifai API for facial recognition presented complexities, especially given the intricacies of image processing and interpreting API responses. Diligent documentation review, testing with tools like Postman, and watching tutorials have been strategies to overcome this challenge.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #3 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjSixBtnFour"
+                                aria-expanded="true"
+                                aria-controls="collapseProjSixBtnFour"
+                              >
+                                <span class="accordion-button-text">Future Features</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjSixBtnFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <ul class="features-list">
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon>Image Uploads instead of using URLs for facial detection
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon>Advance Facial Recognition Features such as emotion detection, age estimation or gender prediction
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon>Integration with Additional APIs
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon>User Feedback and Reporting
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="modal-close" data-bs-dismiss="modal">
+                          <ion-icon name="exit-outline" class="project-icon"></ion-icon>Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END OF MODAL -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF SmartBrain APP -->
+
+      <!-- ALPHA FOOTWEAR APP -->
+      <div class="project-section animate-proj-1">
+        <div class="container-fluid">
+          <!-- Image -->
+          <div class="project-image-container">
+            <!-- IMAGE CAROUSEL -->
+            <div id="carouselExampleIndicators1" class="carousel slide">
+              <!-- Slider Bars -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators1"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="7" aria-label="Slide 7"></button> -->
+              </div>
+
+              <!-- TODO - Let image be 900 X 535 -->
+              <!-- Image Container -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/store.png" class="d-block w-100 carousel-image" alt="Home Page" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/store2.png" class="d-block w-100 carousel-image" alt="Products Page" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/store3.png" class="d-block w-100 carousel-image" alt="Cart Page" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/store4.png" class="d-block w-100 carousel-image" alt="Checkout Page" />
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                <span aria-hidden="true"><ion-icon name="arrow-back-outline" class="arrow-back-outline"></ion-icon></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <!-- Next Slide Container -->
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <span aria-hidden="true"><ion-icon name="arrow-forward-outline" class="arrow-forward-outline"></ion-icon></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- End of Image Carousel -->
+
+          <!-- Text -->
+          <!-- <div class="col col-md-6"> -->
+          <div class="row">
+            <div class="project-content">
+              <h1 class="project-heading">E-Commerce</h1>
+              <h2 class="project-subheading">Frontend E-Commerce Store</h2>
+              <ul class="tech-list">
+                <li class="list-item">React</li>
+                <li class="list-item">TypeScript</li>
+                <li class="list-item">NextJS</li>
+                <li class="list-item">Tailwind CSS</li>
+                <li class="list-item">Shadcn UI</li>
+                <li class="list-item">Vercel</li>
+              </ul>
+              <!-- <p class="project-description">High quality footwear at an affordable price.</p> -->
+              <p class="project-description">
+                A modern user-friendly E-commerce web application containing a wide selection of shirts, bags, glasses and shoes. All product data and user
+                authentication is stored on the back-end. The web application is built with scalability and can easily accomodate more products without further configuration.
+              </p>
+              <div class="project-btns">
+                <!-- OPEN LIVE SITE -->
+                <!-- <div class="project-content-btns"> -->
+                <a class="click-zone" href="https://ecommerce-store-roan-chi.vercel.app/" target="_blank"
+                  ><button class="btn-site"><ion-icon name="open-outline" class="project-icon"></ion-icon>View Site</button></a
+                >
+                <!-- OPEN REPO CODE -->
+                <a class="click-zone" href="https://github.com/arooj-12/ecommerce-store" target="_blank"
+                  ><button class="btn-code"><ion-icon name="code-slash-outline" class="project-icon"></ion-icon>View Code</button></a
+                >
+                <!-- OPEN MODAL BUTTON -->
+                <button type="button" class="btn-description" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                  <ion-icon name="enter-outline" class="project-icon"></ion-icon>Project Description
+                </button>
+                <!-- MODAL CONTENT -->
+                <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel">Project Overview</h1>
+                      </div>
+                      <!-- HOLDS OUR ENTIRE MODAL WINDOW CONTENT -->
+                      <div class="modal-body">
+                        <!-- Section #1 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjOneBtnOne"
+                                aria-expanded="true"
+                                aria-controls="collapseProjOneBtnOne"
+                              >
+                                <span class="accordion-button-text">Project Description</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjOneBtnOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                This is the solution for getting top quality without breaking the bank. Customers
+                                will enjoy and appreciate a minimalist layout without overwhelming distractions.
+                                The user experience was the push for keeping the layout as minimal as possible without compromising other sections.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #2 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjOneBtnTwo"
+                                aria-expanded="true"
+                                aria-controls="collapseProjOneBtnTwo"
+                              >
+                                <span class="accordion-button-text">Why did I build this project?</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjOneBtnTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                I built this project to challenge myself by creating a large e-commerce app. My previous
+                                project(Robofriends) helped get a basic understanding of React which allowed me to set the bar higher
+                                this time around and push myself to create a scalable React App. Going into the project, I have planned
+                                to update this project as I learn new technologies. TypeScript and Shadcn UI been really enjoyable to learn. I have grown to love
+                                TypeScript after a short period of time and while I am still learning, I plan to use TypeScript for all
+                                my future projects because of how helpful it has been to help debug during development.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #3 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjOneBtnThree"
+                                aria-expanded="true"
+                                aria-controls="collapseProjOneBtnThree"
+                              >
+                                <span class="accordion-button-text">Build Difficulties?</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjOneBtnThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                The difficultly with this project came down to learning new technologies and implementing them as I
+                                improved. I built this project shortly after completing my React Udemy course and tested myself by
+                                putting everything I had learned to use. Learning multiple technologies at once made it a bit more
+                                difficult requiring reading a lot of documentation but it turned out to be enjoyable and beneficial. Implementing
+                                TypeScript into my application after already doing the majority of it with JavaScript proved to have
+                                its challenges as the change gave me many errors upon changing. However, learning the basics first
+                                helped me resolve my errors and turned out to be enjoyable converting my project. What really helped me
+                                was using my previous experience working with Javascript. Javascript being a strongly typed language,
+                                made learning the syntax of TypeScript easier to understand. Overall, I enjoyed using TypeScript and
+                                plan to use it for all my future projects because of how useful it can be during development and
+                                refactoring code.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #3 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjOneBtnFour"
+                                aria-expanded="true"
+                                aria-controls="collapseProjOneBtnFour"
+                              >
+                                <span class="accordion-button-text">Future Features</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjOneBtnFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <ul class="features-list">
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Wishlist and Favorites
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Product Reviews and Ratings
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Recommendation Engine
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Order Tracking and Notifications
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="modal-close" data-bs-dismiss="modal">
+                          <ion-icon name="exit-outline" class="project-icon"></ion-icon>Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END OF MODAL -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT #5 - MERN STACK -->
+      <div class="project-section animate-proj-7">
+        <div class="container-fluid">
+          <!-- Image -->
+          <div class="project-image-container">
+            <!-- IMAGE CAROUSEL -->
+            <div id="carouselExampleIndicators7" class="carousel slide">
+              <!-- Slider Bars -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators7"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+
+              <!-- Image Container -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./img/admin.png"
+                    class="d-block w-100"
+                    alt="Total Revenue"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/admin2.png" class="d-block w-100" alt="Modal Screen" />
+                </div>
+              </div>
+
+              <!-- Previous Slide Container -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="prev">
+                <span aria-hidden="true"><ion-icon name="arrow-back-outline" class="arrow-back-outline"></ion-icon></span>
+                <span class="visually-hidden slider-arrow-icon">Previous</span>
+              </button>
+
+              <!-- Next Slide Container -->
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="next">
+                <span aria-hidden="true"><ion-icon name="arrow-forward-outline" class="arrow-forward-outline"></ion-icon></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- End of Image Carousel -->
+
+          <!-- Text -->
+          <!-- <div class="col col-md-6"> -->
+          <div class="row">
+            <div class="project-content">
+              <h1 class="project-heading">E-Commerce</h1>
+              <h2 class="project-subheading">Backend E-Commerce Admin</h2>
+              <ul class="tech-list">
+                <li class="list-item">React</li>
+                <li class="list-item">NextJS</li>
+                <li class="list-item">Typescript</li>
+                <li class="list-item">Tailwind CSS</li>
+                <li class="list-item">ShadcnUI</li>
+                <li class="list-item">Prisma</li>
+                <li class="list-item">Clerk Auth</li>
+                <li class="list-item">MySQL</li>
+                <li class="list-item">Stripe</li>
+                <li class="list-item">Vercel</li>
+              </ul>
+              <p class="project-description">
+                Developed an integrated CMS within the admin dashboard enabling control of multiple vendors
+              </p>
+              <div class="project-btns">
+                <!-- OPEN LIVE SITE -->
+                  <a class="click-zone" href="https://ecommerce-admin-indol-eta.vercel.app/" target="_blank"
+                  ><button class="btn-site"><ion-icon name="open-outline" class="project-icon"></ion-icon>View Site</button></a
+                >
+                <!-- OPEN REPO CODE -->
+                <a class="click-zone" href="https://github.com/arooj-12/ecommerce-admin" target="_blank"
+                  ><button class="btn-code"><ion-icon name="code-slash-outline" class="project-icon"></ion-icon>View Documentation</button></a
+                >
+                <!-- OPEN MODAL BUTTON -->
+                <button type="button" class="btn-description" data-bs-toggle="modal" data-bs-target="#projectModal7">
+                  <ion-icon name="enter-outline" class="project-icon"></ion-icon>Project Description
+                </button>
+                <!-- MODAL CONTENT -->
+                <div class="modal fade" id="projectModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel">Project Overview</h1>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                      </div>
+                      <div class="modal-body">
+                        <!-- Section #1 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjSevenBtnOne"
+                                aria-expanded="true"
+                                aria-controls="collapseProjSevenBtnOne"
+                              >
+                                <span class="accordion-button-text">Project Description</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjSevenBtnOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                Integrated CMS within the admin dashboard enabling control of multiple vendors, creation and management of products, categories, filters, and billboards, along with seamless API generation.The app is built with scalability in mind and can easily accomodate more data without further configuration. Incorporated advanced features such as multi-image product uploads with the help of Cloudinary, search functionality with pagination, and dynamic homepage display options for featured products. Implemented secure authentication using Clerk, order creation, and integrated Stripe for seamless checkout and webhooks, providing a comprehensive and efficient online shopping experience. The app is deployed on Vercel and the code is hosted on GitHub.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #2 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjSevenBtnTwo"
+                                aria-expanded="true"
+                                aria-controls="collapseProjSevenBtnTwo"
+                              >
+                                <span class="accordion-button-text">Why did I build this project?</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjSevenBtnTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                In my quest to deepen my understanding of web development and provide a valuable solution for online merchants, I embarked on a journey to build an integrated CMS within an admin dashboard. The goal was clear: create a robust platform that empowers users with control over multiple vendors, facilitates the creation and management of products, categories, filters, and billboards, and seamlessly generates APIs for enhanced functionality.
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #3 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjSevenBtnThree"
+                                aria-expanded="true"
+                                aria-controls="collapseProjSevenBtnThree"
+                              >
+                                <span class="accordion-button-text">Build Difficulties?</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjSevenBtnThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                During deployment of the application on Vercel, encountered a bit of a roadblock when it came time to integrating Prisma using Planetscale. The solution was that I changed the password on Planetscale which automatically made me setup a new database url and I replaced it in .env file of the project. Another issue I encountered was that I installed a bad package so for that I had to delete node modules and pack-locke.json file. After that I did npm install which made the typescript error go away.
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #4 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjSevenBtnFour"
+                                aria-expanded="true"
+                                aria-controls="collapseProjSevenBtnFour"
+                              >
+                                <span class="accordion-button-text">Future Features</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjSevenBtnFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <ul class="features-list">
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Integration with Social Media
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Gift Cards and Discounts
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Localization and Multi-Language Support
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Inventory Alerts
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="modal-close" data-bs-dismiss="modal">
+                          <ion-icon name="exit-outline" class="project-icon"></ion-icon>Close
+                        </button>
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END OF MODAL -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF Ecommerce-admin PROJECT -->
+
+      <!-- PROJECT #5 - Netflix clone -->
+      <div class="project-section animate-proj-5">
+        <div class="container-fluid">
+          <!-- Image -->
+          <div class="project-image-container">
+            <!-- IMAGE CAROUSEL -->
+            <div id="carouselExampleIndicators5" class="carousel slide">
+              <!-- Slider Bars -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators5"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+
+              <!-- Image Container -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/netflix.png" class="d-block w-100" alt="Login" />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/netflix2.png"
+                    class="d-block w-100"
+                    alt="User Screen"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/netflix3.png" class="d-block w-100" alt="Home Screen" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/netflix4.png" class="d-block w-100" alt="Movie" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/netflix5.png" class="d-block w-100" alt="Movie Lisr" />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/netflix6.png" class="d-block w-100" alt="Movie Discription" />
+                </div>
+              </div>
+
+              <!-- Previous Slide Container -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                <span aria-hidden="true"><ion-icon name="arrow-back-outline" class="arrow-back-outline"></ion-icon></span>
+                <span class="visually-hidden slider-arrow-icon">Previous</span>
+              </button>
+
+              <!-- Next Slide Container -->
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                <span aria-hidden="true"><ion-icon name="arrow-forward-outline" class="arrow-forward-outline"></ion-icon></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- End of Image Carousel -->
+
+          <!-- Text -->
+          <!-- <div class="col col-md-6"> -->
+          <div class="row">
+            <div class="project-content">
+              <h1 class="project-heading">Netflix</h1>
+              <h2 class="project-subheading">Letflix - Netflix Clone</h2>
+              <ul class="tech-list">
+                <li class="list-item">MongoDB</li>
+                <li class="list-item">NextJS</li>
+                <li class="list-item">React</li>
+                <li class="list-item">Tailwind CSS</li>
+                <li class="list-item">Next Auth</li>
+                <li class="list-item">Prisma</li>
+                <li class="list-item">Vercel</li>
+              </ul>
+              <p class="project-description">
+                Netflix is a source of great entertainment where you can login to watch your favorite movies.
+              </p>
+              <div class="project-btns">
+                 <!-- OPEN LIVE SITE -->
+                 <a class="click-zone" href="https://next-netflix-three.vercel.app/" target="_blank"
+                 ><button class="btn-site"><ion-icon name="open-outline" class="project-icon"></ion-icon>View Site</button></a
+               >
+               <!-- OPEN REPO CODE -->
+               <a class="click-zone" href="https://github.com/arooj-12/next-netflix" target="_blank"
+                 ><button class="btn-code"><ion-icon name="code-slash-outline" class="project-icon"></ion-icon>View Documentation</button></a
+               >
+                <!-- OPEN MODAL BUTTON -->
+                <button type="button" class="btn-description" data-bs-toggle="modal" data-bs-target="#projectModal5">
+                  <ion-icon name="enter-outline" class="project-icon"></ion-icon>Project Description
+                </button>
+                <!-- MODAL CONTENT -->
+                <div class="modal fade" id="projectModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel">Project Overview</h1>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                      </div>
+                      <div class="modal-body">
+                        <!-- Section #1 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjFiveBtnOne"
+                                aria-expanded="true"
+                                aria-controls="collapseProjFiveBtnOne"
+                              >
+                                <span class="accordion-button-text">Project Description</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjFiveBtnOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                Developed a comprehensive Fullstack Netflix clone with user authentication via GitHub and Google accounts, featuring an account selection option for personalized preferences. Implemented responsive design for optimal user experience across devices, including watchlist functionality, movie browsing, and a dynamic video player for an immersive streaming experience. Proficiently utilized technologies such as NextAuth, Prisma, and MongoDB, ensuring robust security measures, protected routes, and seamless deployment on Vercel.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #2 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjFiveBtnTwo"
+                                aria-expanded="true"
+                                aria-controls="collapseProjFiveBtnTwo"
+                              >
+                                <span class="accordion-button-text">Why did I build this project?</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjFiveBtnTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                I embarked on building this project with the primary goal of enhancing my skills. While I already had a solid
+                                understanding of React on the frontend, I recognized the importance of becoming well-rounded and
+                                proficient in backend development as well. This project provided the opportunity to dive into
+                                backend technologies and become more versatile developer overall.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #3 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjFiveBtnThree"
+                                aria-expanded="true"
+                                aria-controls="collapseProjFiveBtnThree"
+                              >
+                                <span class="accordion-button-text">Build Difficulties?</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjFiveBtnThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                As a front-end developer transitioning to full-stack development, my main challenge in building my application was mastering MongoDb and implementation of NextAuth using Google and Github accounts. Debugging the
+                                code took up a significant portion of the project's development phase. However, through dedicated
+                                research and experimentation, I gradually gained proficiency in debugging techniques, which led to a
+                                breakthrough. Over time, things started to click, and I found myself genuinely enjoying the process.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Section #4 -->
+                        <div class="accordion accordion-flush" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseProjFiveBtnFour"
+                                aria-expanded="true"
+                                aria-controls="collapseProjFiveBtnFour"
+                              >
+                                <span class="accordion-button-text">Future Features</span>
+                              </button>
+                            </h2>
+                            <div id="collapseProjFiveBtnFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <ul class="features-list">
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Virtual Watch Parties
+                                  </li>
+                                  <li>
+                                    <ion-icon name="construct-outline" class="features-icon"></ion-icon> Personalized Recommendations
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="modal-close" data-bs-dismiss="modal">
+                          <ion-icon name="exit-outline" class="project-icon"></ion-icon>Close
+                        </button>
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END OF MODAL -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- CONTACT SECTION -->
+    <div class="container contact-section" id="contact">
+      <!-- <form> -->
+      <!-- When someone submits the form, PUSH all data to the action value -->
+      <div class="contact-form animate-contact-form">
+        <form action="https://formsubmit.co/30c04b87b4e36361c6cf0ab295b9e6c1" method="POST">
+          <h1 class="contact-header">Contact Me</h1>
+          <div class="row">
+            <div class="col col-md-6">
+              <label for="exampleFormControlInput1" id="fullname">Name*</label>
+              <input type="text" name="name" class="form-control" placeholder="John Doe" required />
+            </div>
+            <div class="col col-md-6">
+              <label for="exampleFormControlInput1">Phone</label>
+              <input type="text" name="name" class="form-control" placeholder="123-456-7890" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email Address*</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="7" style="color: #333"></textarea>
+          </div>
+          <button type="submit" class="form-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div class="footer-section">
+      <div class="footer-links">
+        <div class="footer-link">
+          <a href="https://github.com/arooj-12" target="_blank" class="link-icon-container">
+            <ion-icon name="logo-github" class="link-icon"></ion-icon>
+            <span class="link-icon-text">Github</span>
+          </a>
+        </div>
+
+        <div class="footer-link">
+          <a href="www.linkedin.com/in/arooj-shahid-22b780215" target="_blank" class="link-icon-container">
+            <ion-icon name="logo-linkedin" class="link-icon"></ion-icon>
+            <span class="link-icon-text">LinkedIn</span>
+          </a>
+        </div>
+
+        <div class="footer-link">
+          <a href="./files/Arooj-Resume.pdf" target="_blank" class="link-icon-container">
+            <ion-icon name="cloud-download-outline" class="link-icon"></ion-icon>
+            <span class="link-icon-text">Resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our JS File -->
+    <script src="./javascript.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Ion Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
