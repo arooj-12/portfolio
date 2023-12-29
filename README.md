@@ -23,4 +23,4 @@ The website has been designed to display my work in a structured and visually ap
 
 ## Visit Site
 
-https://bartoszswierzynski.com/
+https://portfolio-k7d4zasgf-aroojs-projects.vercel.app/
